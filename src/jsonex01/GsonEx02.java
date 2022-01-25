@@ -1,13 +1,13 @@
 package jsonex01;
 
-class SMSD to{
+import javax.sql.rowset.spi.SyncResolver;
+
+class SMSDto {
     private String groupld;
     private int successCount;
     private int errorCount;
 
 }
-
-import javax.sql.rowset.spi.SyncResolver;
 
 public class GsonEx02 {
     public static void main(String[] args) {
