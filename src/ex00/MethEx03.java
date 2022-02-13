@@ -12,3 +12,21 @@ package ex00;
  * 7.static메서드 내부에서는 heap에 있는 데이터를 찾을 수 없다.
  * 
  */
+public class MethEx03 {
+    int sum = 0;
+
+    void start() {
+        int n1 = 10;
+        int n2 = 20;
+        int result = n1 + n2;
+        sum = result;
+    }
+
+    public static void main(String[] args) {
+        MethEx03 m = new MethEx03();
+        System.out.println("start 실행전 sum : " + m.sum);
+        m.start(); // 클래스명 생략가능 (같은 클래스에 있기 때문에!!)
+        System.out.println("start 실행후 sum : " + m.sum);
+
+    }
+}

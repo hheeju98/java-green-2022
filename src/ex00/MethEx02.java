@@ -1,7 +1,5 @@
 package ex00;
 
-import java.util.concurrent.SubmissionPublisher;
-
 class Calculator2 {
     // 투입구, 출구 다있는 메서드
     static int add(int a1, int a2) {

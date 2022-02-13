@@ -7,6 +7,7 @@ public class VarEx01 {
 
         byte num2 = 100; // 변수의 초기화 (확보+대입)
         System.out.println(num);
+        System.out.println(num2);
     }
 
 }

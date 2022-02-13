@@ -16,6 +16,7 @@ public class OOPEx01 {
         Car s2 = new Car();
         System.out.println(s2.speed);
 
+        new Car();
     }
 
 }

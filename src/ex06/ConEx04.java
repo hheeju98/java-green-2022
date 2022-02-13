@@ -2,6 +2,7 @@ package ex06;
 
 public class ConEx04 {
     public static void main(String[] args) {
+        // A,B,C,D,F 까지 표현!!
         // else if(조건)=>그게아니라 이것이라면
         int point = 81;
 

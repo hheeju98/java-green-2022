@@ -12,8 +12,8 @@ class 오렌지 {
     String name = "오렌지";
 }
 
-class ResponseBox<T> {  // 꺽새안에 어떤 알파벳이 들어가도 상관없음 
-                        // 변수자리임 대신 대문자임
+class ResponseBox<T> { // 꺽새안에 어떤 알파벳이 들어가도 상관없음
+                       // 변수자리임 대신 대문자임
     T data; // new 사과()의 주소가 들어감
 
     public ResponseBox(T data) {
@@ -21,6 +21,7 @@ class ResponseBox<T> {  // 꺽새안에 어떤 알파벳이 들어가도 상관�
     }
 }
 
+// 제네릭을 사용하면 메서드의 리턴 타입을 고정 시키면서 다양하게 리턴할 수 있다.
 public class GenericEx01 {
     public static void main(String[] args) {
         ResponseBox<사과> rb1 = new ResponseBox<사과>(new 사과());

@@ -1,6 +1,6 @@
 package ex11;
 
-//하나의 자바 파일에 두개의 public class가 있을 수 없다. import때뮨에!!
+//하나의 자바 파일에 두개의 public class가 있을 수 없다. import때문에!!
 //상태에는 무조건 private 행위는 public
 //return되면 return타입으로 바뀐다.
 class 엘리스 {
@@ -27,6 +27,7 @@ public class AccessEx05 {
         System.out.println("엘리스의 갈증지수 : " + e1.갈증확인하기());
         e1.물마시기();
         System.out.println("엘리스의 갈증지수 : " + e1.갈증확인하기());
+
         // 신입
         e1.물마시기();
         e1.물마시기();

@@ -25,12 +25,11 @@ public class OOPEx03 {
 
         s1.drink();// 메서드 호출(call)
         // 미법금지=상태는 행위를 통해 변경한다.
-        // s1.hp = 50;
+
         System.out.println("체력변경: " + s1.hp);
 
-        // System.out.println("체력변경 :" + s1.hp);
         마법사 s2 = new 마법사();
-        System.out.println("첫번째 마법사가 생성되었습니다");
+        System.out.println("두번째 마법사가 생성되었습니다");
         System.out.println("체력 : " + s2.hp);
         System.out.println("마나 : " + s2.mp);
     }

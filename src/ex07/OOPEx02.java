@@ -1,9 +1,8 @@
 package ex07;
 
 class Doctor {
-    int sal = 5000;
     String name = "홍길동";
-
+    int sal = 5000;
 }
 
 public class OOPEx02 {

@@ -38,8 +38,7 @@ public class MethEx05 {
     }
 
     // 호랑이 -> 사자 공격
-    static void attack(
-            호랑이1 unit1, 사자1 unit2) {
+    static void attack(호랑이1 unit1, 사자1 unit2) {
         System.out.println(unit2.name + "가 공격당하고 있습니다.");
         unit2.hp = unit2.hp - unit1.attack;
         System.out.println(unit2.name + "의 hp : " + unit2.hp);

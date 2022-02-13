@@ -9,13 +9,12 @@ public class WhileEx04 {
         int restMoney = money;
 
         while (true) {
-            int coin = sc.nextInt(); // 500,100,50,10
+            int coin = sc.nextInt();
 
-            // 남은 동전 출력하는 로직
+            System.out.println(coin + "원 =======");
             System.out.println(restMoney / coin + "개");
             restMoney = restMoney % coin;
 
-            // if문 break;
             if (coin == 10) {
                 break;
             }

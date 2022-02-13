@@ -6,6 +6,7 @@ class 가구 {
     가구(int num) {
         System.out.println("나 실행돼?");
     }
+
 }
 
 // 1. super는 부모의 heap공간, this는 자신의 heap공간

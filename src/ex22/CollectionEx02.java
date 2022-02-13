@@ -4,12 +4,9 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-class MyInteger {
-    int num;
-}
-
 public class CollectionEx02 {
     public static void main(String[] args) {
+        // 제네릭에는 기본자료형을 담을 수 없다. Wrapper 클래스 필요!!
         Set<Integer> datas = new HashSet<>();
         // 뒤에 타입 안넣어줘도됨 생략가능
         datas.add(10);
@@ -27,7 +24,7 @@ public class CollectionEx02 {
 
         // datas가 가지고 있는 것을 하나씩 보려면 while 사용
         Iterator<Integer> its = datas.iterator();
-        while(its.hasNext()) {
+        while (its.hasNext()) {
             System.out.println(its.next());
         }
 
